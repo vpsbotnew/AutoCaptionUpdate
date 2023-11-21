@@ -4,11 +4,11 @@
 
 import pyrogram, os, asyncio
 
-try: app_id = int(os.environ.get("app_id", "20389440"))
+try: app_id = int(os.environ.get("app_id", "20681593"))
 except Exception as app_id: print(f"⚠️ App ID Invalid {app_id}")
-try: api_hash = os.environ.get("api_hash", "a1a06a18eb9153e9dbd447cfd5da2457")
+try: api_hash = os.environ.get("api_hash", "379596c99399dffbf5cd00f1242ec60c")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
-try: bot_token = os.environ.get("bot_token", "6564513574:AAH3Y97iqQjSlV5vKKZdGDUohlhpA-LeSbw")
+try: bot_token = os.environ.get("bot_token", "6317543555:AAGH3rOF0kpdn3Tm4jr30NMJGVN9puHl9Dg")
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
 try: custom_caption = os.environ.get("custom_caption", "`{file_name}`")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
@@ -20,15 +20,15 @@ start_message = """
 <b>👋Hello {}</b>
 <b>I am an AutoCaption bot</b>
 <b>All you have to do is add me to your channel and I will show you my power</b>
-<b>@VJ_Botz</b>"""
+<b>@JISSHU_BOTS</b>"""
 
 about_message = """
-<b>• Name : <a href=https://t.me/VJ_Botz>VJ AutoCaption</a></b>
-<b>• Developer : <a href=https://t.me/VJ_Botz>[VJ UPDATES]</a></b>
+<b>• Name : <a href=https://t.me/JISSHU_BOTS>JISSHU AutoCaption</a></b>
+<b>• Developer : <a href=https://t.me/JISSHU_BOTS>[JISSHU UPDATES]</a></b>
 <b>• Language : Python3</b>
 <b>• Library : Pyrogram v{version}</b>
-<b>• Updates : <a href=https://t.me/VJ_Botz>Click Here</a></b>
-<b>• Source Code : <a href=https://github.com/VJBots/VJ-AutoCaption-Bot>Click Here</a></b>"""
+<b>• Updates : <a href=https://t.me/JISSHU_BOTS>Click Here</a></b>
+<b>• Source Code : <a href=https://t.me/IM_JISSHU>BOT OWNER</a></b>"""
 
 @AutoCaptionBotV1.on_message(pyrogram.filters.private & pyrogram.filters.command(["start"]))
 def start_command(bot, update):
@@ -77,7 +77,7 @@ def get_file_details(update: pyrogram.types.Message):
 def start_buttons(bot, update):
   bot = bot.get_me()
   buttons = [[
-   pyrogram.types.InlineKeyboardButton("Updates", url="t.me/VJ_Botz"),
+   pyrogram.types.InlineKeyboardButton("Updates", url="t.me/JISSHU_BOTS"),
    pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
    ],[
    pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
@@ -90,8 +90,8 @@ def about_buttons(bot, update):
    ]]
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
-print("Telegram AutoCaption V1 Bot Start")
-print("Bot Created By https://t.me/VJ_Botz")
+print("Telegram AutoCaption JISSHU Bot Start")
+print("Bot Created By https://t.me/JISSHU_BOTS")
 
 AutoCaptionBotV1.run()
 
