@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @JISSHU_BOTS
+# Subscribe YouTube Channel For Amazing Bot @JISSHU_BOTS
+# Ask Doubt on telegram @JISSHU_BOTS
 
 import pyrogram, os, asyncio
 
