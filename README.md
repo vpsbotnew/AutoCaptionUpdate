@@ -1,6 +1,6 @@
 ## <b>Jisshu 𝘼𝙪𝙩𝙤𝘾𝙖𝙥𝙩𝙞𝙤𝙣 𝘽𝙤𝙩</b>
 
-This Repo is Telegram Channel Code to help build a bot that automatically adds captions to files added to a Telegram channel Created By motech Remastered By VJ_BOTZ
+This Repo is Telegram Channel Code to help build a bot that automatically adds captions to files added to a Telegram channel Created By motech Remastered By JISSHU BOTS
 
 
   </a>
