@@ -1,6 +1,6 @@
 {
-    "name": "VJ-AutoCaption-Bot",
-    "description": "Auto Caption BoT V1 @KingVJ01",
+    "name": "Jisshu-AutoCaption-Bot",
+    "description": "Auto Caption BoT V1 @IM_JISSHU",
     "logo": "https://graph.org/file/a3a93ffb7283578499cce.jpg",
     "keywords": [
         "Private",
@@ -8,9 +8,9 @@
         "Caption",
         "Bot"
     ],
-    "website": "https://youtube.com/@Tech_VJ",
-    "repository": "https://github.com/VJBots/VJ-AutoCaption-Bot",
-    "success_url": "https://youtube.com/@Tech_VJ",
+    "website": "https://youtube.com/@JISSHU-BOTS",
+    "repository": "https://github.com/VJBots/Jisshu-AutoCaption-Bot",
+    "success_url": "https://youtube.com/@JISSHU-BOTS",
     "env": {
         "app_id": {
             "description": "Your APP ID From my.telegram.org",
