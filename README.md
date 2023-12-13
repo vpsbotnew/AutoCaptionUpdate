@@ -79,7 +79,7 @@ Use these settings when adding a monitor:</b>
 [Subscribe YouTube Channel](https://youtube.com/@JISSHU-BOTS)
 
 ### Credits
-[Tech VJ](https://youtube.com/@JISSHU-BOTS) - Make Repo Deployable On Web Platform. 
+[JISSHU BOTS](https://youtube.com/@JISSHU-BOTS) - Make Repo Deployable On Web Platform. 
 
 Mo-Tech & PR0FESS0R-99 - For Repo
 
