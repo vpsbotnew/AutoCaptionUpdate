@@ -4,13 +4,13 @@
 
 import pyrogram, os, asyncio
 
-try: app_id = int(os.environ.get("app_id", "🔑"))
+try: app_id = int(os.environ.get("app_id", "20681593"))
 except Exception as app_id: print(f"⚠️ App ID Invalid {app_id}")
-try: api_hash = os.environ.get("api_hash", "🔑")
+try: api_hash = os.environ.get("api_hash", "379596c99399dffbf5cd00f1242ec60c")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
-try: bot_token = os.environ.get("bot_token", "🔑")
+try: bot_token = os.environ.get("bot_token", "6317543555:AAGH3rOF0kpdn3Tm4jr30NMJGVN9puHl9Dg")
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
-try: custom_caption = os.environ.get("custom_caption", "{file_name}")
+try: custom_caption = os.environ.get("custom_caption", "<a href=https://t.me/+jZyF9oM17vliODc1>{file_name}</a></b>")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
 AutoCaptionBotV1 = pyrogram.Client(
