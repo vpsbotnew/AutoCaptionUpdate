@@ -10,7 +10,7 @@ try: api_hash = os.environ.get("api_hash", "0b962717d931f4480c46d56c85d409a5")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
 try: bot_token = os.environ.get("bot_token", "6761629223:AAGKzDQVHE0d4ZmWeCFKS2zeQEDu6M55xxQ")
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
-try: custom_caption = os.environ.get("custom_caption", "<b>{file_name}\n\n[👉YN Main Movie ချန်နယ် Joinရန်](https://t.me/YNMOVIEONE)\n\n[👉YN VIP ချန်နယ် Joinရန်](https://t.me/YNVIPMEMBERBOT)\n\n[👉YN Channel Link အားလုံး Joinရန်](https://t.me/addlist/UuYiNy4BLLw5Mzg1)\n\n[🔎Movie တောင်းရန်နှင့်ရှာဖွေရန်ဂရု 🔎](https://t.me/+XTScHquCH0A0ZTQ1)\n\n[🔎Series တောင်းရန်နှင့်ရှာဖွေရန်ဂရု🔎](https://t.me/YNMovie_SeriesBank)"</b>")
+try: custom_caption = os.environ.get("custom_caption", "<b>{file_name}\n\n👉YN Main Movie ချန်နယ် Joinရန်<a href=https://t.me/YNMOVIEONE</a>\n\n👉YN VIP ချန်နယ် Joinရန်<a href=https://t.me/YNVIPMEMBERBOT</a>\n\n👉YN Channel Link အားလုံး Joinရန်<a href=https://t.me/addlist/UuYiNy4BLLw5Mzg1</a>\n\n🔎Movie တောင်းရန်နှင့်ရှာဖွေရန်ဂရု 🔎<a href=https://t.me/+XTScHquCH0A0ZTQ1</a>\n\n🔎Series တောင်းရန်နှင့်ရှာဖွေရန်ဂရု🔎<a href=https://t.me/YNMovie_SeriesBank</a> </b>")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
 AutoCaptionBotV1 = pyrogram.Client(
